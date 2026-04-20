@@ -22,4 +22,33 @@
     </extension>
 
 </addon>
+
+<addon id="plugin.program.Aethernexus" name="[COLOR purple]Aether Nexus[/COLOR]" version="1.0.0" provider-name="Aether">
+  <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+        <summary lang="en">Aether Nexus</summary>
+        <description lang="en">Aether Nexus
+
+Aether Nexus is the central hub of the Aether ecosystem — designed to deliver a seamless, guided setup with precision and speed.
+
+Built with simplicity in mind, Nexus gives you instant access to Aether builds, system tools, and essential integrations, all in one refined interface. From first install to full optimisation, every step is streamlined to eliminate clutter and maximise performance.
+
+With intelligent configuration, integrated account linking, and automated maintenance tools, Aether Nexus ensures your setup stays fast, clean, and ready to perform.
+
+No guesswork. No unnecessary steps. Just a smooth, elevated experience — exactly how streaming should be.
+
+Stream Above.</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+  </extension>
+  
+</addon>
+  
 </addons>
